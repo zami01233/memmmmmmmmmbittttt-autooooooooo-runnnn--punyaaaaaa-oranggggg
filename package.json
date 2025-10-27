@@ -1,0 +1,18 @@
+{
+  "name": "membit-bot",
+  "version": "1.0.0",
+  "description": "Bot otomatis Membit untuk multi-account farming",
+  "type": "module",
+  "main": "p.js",
+  "scripts": {
+    "start": "node p.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.3",
+    "blessed": "^0.1.81",
+    "chalk": "^5.3.0",
+    "cfonts": "^3.2.0",
+    "https-proxy-agent": "^7.0.2",
+    "socks-proxy-agent": "^8.0.2"
+  }
+}
